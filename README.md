@@ -12,4 +12,4 @@ contrario se asigna un seno negativo que equivale a un seno desplazado 90°.
 
 La señal modulada obtenida es:
 
-<img src="./x.png" width="400">
+<img src="./imagenes/Senalmodulada.png" width="400">

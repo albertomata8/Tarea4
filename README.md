@@ -32,6 +32,7 @@ Primeramente se tiene que la relación señal-a-ruido esta dada por:
 Para simular un canal ruidoso desconocido, primeramente se utilizó esta relación de señal-a-ruido en cunjunto con la potencia promedio que se había obtenido en la parte anterior,ya que así se pudo obtener el parámetro de potencia del ruido para SNR. Con esta potencia se pudo obtener sigma mediante la función de numpy de np.sqrt. Se calculó el ruidp para -2dB, -1dB, 0dB, 1dB, 2dB y 3dB, cabe mencionar que dicho ruido se realizó mediante valores aleatorios con una distribucion normal. Se creó la señal Rx la cual es la suma de la señal modulada obtenida en la primera parte con el ruido obtenida en esta sección. 
 
 Gráficando las señales para las distintas frecuencias en decibeles se obtiene:
+
 <img src="./imagenes/-2.png" width="400">
 <img src="./imagenes/-1.png" width="400">
 <img src="./imagenes/0.png" width="400">
@@ -40,3 +41,19 @@ Gráficando las señales para las distintas frecuencias en decibeles se obtiene:
 <img src="./imagenes/3.png" width="400">
 
 ### Parte #4: Graficar la densidad espectral de potencia de la señal con el método de Welch (SciPy), antes y después del canal ruidoso.
+
+Aplicando el método de Welch, se logró calcular la densidad espectral de potencia.
+
+La gráfica de la señal modulada sin ruido correspondería a:
+
+<img src="./imagenes/inicial.4.png" width="400">
+
+Las gráficas con ruido para cada SNR corresponden a:
+
+<img src="./imagenes/-2.4.png" width="400">
+<img src="./imagenes/-1.4.png" width="400">
+<img src="./imagenes/0.4.png" width="400">
+<img src="./imagenes/1.4.png" width="400">
+<img src="./imagenes/2.4.png" width="400">
+<img src="./imagenes/3.4.png" width="400">
+

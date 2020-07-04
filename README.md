@@ -33,12 +33,9 @@ Para simular un canal ruidoso desconocido, primeramente se utilizó esta relaci�
 
 Gráficando las señales para las distintas frecuencias en decibeles se obtiene:
 
-<img src="./imagenes/-2.png" width="400">
-<img src="./imagenes/-1.png" width="400">
-<img src="./imagenes/0.png" width="400">
-<img src="./imagenes/1.png" width="400">
-<img src="./imagenes/2.png" width="400">
-<img src="./imagenes/3.png" width="400">
+<img src="./imagenes/-2.png" width="400"><img src="./imagenes/-1.png" width="400">
+<img src="./imagenes/0.png" width="400"><img src="./imagenes/1.png" width="400">
+<img src="./imagenes/2.png" width="400"><img src="./imagenes/3.png" width="400">
 
 ### Parte #4: Graficar la densidad espectral de potencia de la señal con el método de Welch (SciPy), antes y después del canal ruidoso.
 
@@ -50,10 +47,7 @@ La gráfica de la señal modulada sin ruido correspondería a:
 
 Las gráficas con ruido para cada SNR corresponden a:
 
-<img src="./imagenes/-2.4.png" width="400">
-<img src="./imagenes/-1.4.png" width="400">
-<img src="./imagenes/0.4.png" width="400">
-<img src="./imagenes/1.4.png" width="400">
-<img src="./imagenes/2.4.png" width="400">
-<img src="./imagenes/3.4.png" width="400">
+<img src="./imagenes/-2.4.png" width="400"><img src="./imagenes/-1.4.png" width="400">
+<img src="./imagenes/0.4.png" width="400"><img src="./imagenes/1.4.png" width="400">
+<img src="./imagenes/2.4.png" width="400"><img src="./imagenes/3.4.png" width="400">
 
